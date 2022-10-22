@@ -1,13 +1,13 @@
 
 $(document).ready(function(){
   // For touchscreens. Recoment the code using by mobile devices
-  $(document).on("touchstart",".mob-nav", function() {
-    if ($(".dropDN-menu").css("display") === "none") {
-      $(".dropDN-menu").css("display", "block");
-    } else {
-      $(".dropDN-menu").css("display", "none");
-    }
-  });
+//   $(document).on("touchstart",".mob-nav", function() {
+//     if ($(".dropDN-menu").css("display") === "none") {
+//       $(".dropDN-menu").css("display", "block");
+//     } else {
+//       $(".dropDN-menu").css("display", "none");
+//     }
+//   });
   // Drop down menu on mobile screens
   $(".mob-nav").click(function() {
     if ($(".dropDN-menu").css("display") === "none") {
